@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    font-family: sans-serif ;
+}
+nav{
+    width: 100%;
+    height: 3rem;
+    background-color: transparent;
+    position:sticky;
+}
+nav img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50px;
+    margin: 0.5rem 2rem;
+    float: left;
+}
+nav ul{
+    text-align: center;
+    
+    width: 60%;
+    height: 3rem;
+    margin: auto;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+    
+
+}
+nav ul li a{
+ text-decoration: none;
+ font-size: 0.8rem;
+ color: white;
+}
+nav ul li a:hover{
+    text-shadow: 5px 5px 10px lightblue;
+    transition: 0.5s;
+    color: lightblue;
+}
+ #join{
+    float: right;
+    padding: 0%;
+    display: inline-block;
+    margin: 0.6rem 2rem;
+    border-radius: 20px;
+    width: 3rem;
+    height: 1.7rem;
+    font-size: 0.6rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+#join:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 10px white;
+    transition: 0.5s;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(back.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.text{
+    width: 70%;
+    height: 40vh;
+    padding: 5rem 0 0 5rem;
+    margin-top: 7rem;
+}
+.text h1{
+    color: white;
+    font-weight: 50;
+    font-size: 4rem;
+}
+.text p{
+    color: white;
+    font-size: 0.7rem;
+    line-height: 1.5;
+}
+#LearnMore, #Contact{
+    border-radius: 50px;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    margin: 2rem 0rem;
+}
+#LearnMore:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 10px white;
+    transition: 0.5s;
+    }
+ #Contact:hover{
+background-color: white;
+color: black;
+box-shadow: 1px 1px 10px white;
+transition: 0.5s;
+}
+#LearnMore{
+    background-color: lightblue;
+    margin-right: 2rem;
+}
+#Contact{
+    border: 1px solid white;
+  background-color: transparent;
+  border-radius: 40px;
+  color: white;
+}
+
+.main2{
+    width: 100%;
+    height: 100vh;
+    background-color: #090B0C;
+}
+.text1{
+    width: 40%;
+    height: 30vh;
+   margin-left: 5rem;
+   margin-top: 5rem;
+    padding: 2rem;
+    float: left;
+}
+
+.text1 h4{
+    color: white;
+}
+.text1 h1{
+    color: white;
+    font-weight: 50;
+    font-size: 3rem;
+}
+
+.text2{
+    width: 40%;
+    height: 30vh;
+    padding: 2rem;
+    float: right;
+}
+.text2 p{
+    color: white;
+    margin-top: 6.5rem;
+    font-weight: 50; 
+    line-height: 1.5;
+}
+
+.images{
+    width: 90%;
+    height: 40vh;
+    
+    float: left;
+    margin-left: 5rem;
+    text-align: center;
+}
+#card1, #card2, #card3{
+    width: 26%;
+    height: 40vh;
+    
+    display: inline-block;
+margin-left: 7rem;
+
+}
+#card1{
+    margin-left: 0;
+}
+
+   
+#card1 img{
+    width: 100%;
+    height: 25vh;
+}
+#card2 img{
+    width: 100%;
+    height: 25vh;
+}
+#card3 img{
+    width: 100%;
+    height: 25vh;
+}
+
+.images h1{
+    font-size: 2rem;
+    color: white;
+    font-weight:lighter;
+    margin-top: 2rem;
+    text-transform:capitalize;
+    text-align: left;
+}
+
+.images p{
+    color: white;
+    font-size: 0.7rem;  
+    line-height: 5;
+    text-align: left;
+}
+
+
+.main3{
+    width: 100%;
+    height: 80vh;
+    background-color: #BBE2ED;
+}
+.main3 h4{
+    padding: 5rem 0 2rem 5rem ;
+    
+}
+.main3 h1{
+    padding: 0 0 2rem 5rem ;
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 50;
+}
+.main3 p{
+    padding: 0 0 2rem 5rem ;
+}
+
+.imagee{
+    float: right;
+    width: 40%;
+    height: 60vh;
+    background-image: url(girls.jpg);
+    margin: 5rem;
+    background-size: cover;
+    position: relative;
+    animation: mymove 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymove {
+    from {right: -10rem;}
+    to {right: 2rem;}
+  }
+.txt1, .txt2{
+    width: 20%;
+    height: 20vh;
+    background-color: ;
+    
+    
+}
+.txt1 h4{
+    padding: 0 0 2rem 5rem ;
+}
+.txt2 h4{
+    padding: 0 0 2rem 0  ;
+}
+.txt2 p{
+    padding: 0 0 2rem 0  ;
+}
+.txt1{
+    float: left;
+}
+.txt2{
+    margin-left:25rem;
+}
+#LearnM, #SignUp{
+    padding: 0.8rem 1rem;
+    margin-left: 5rem;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 0.6rem;
+}
+#SignUp{
+    margin-left: 1rem;
+    border: none;
+}
+
+
+
+.main4{
+    width: 100%;
+    height: 80vh;
+}
+#toptxt{
+    width: 50%;
+    height: 20vh;
+    text-align: center;
+    margin:  4rem auto;
+}
+#toptxt h4{
+    font-weight: 50;
+}
+#toptxt h1{
+    font-weight: 50;
+    line-height: 2.5;
+    font-size: 2.5rem;
+}
+#toptxt p{
+    font-weight: 50;
+    font-size: 0.8rem;
+}
+
+#lefttxt, #middletxt, #righttxt{
+width: 20%;
+height: 30vh;
+
+display: inline-block;
+margin-left: 5rem;
+margin-top: 2rem;
+text-align: center;
+float: left;    
+}
+#lefttxt{
+    margin-left: 13rem;
+}
+.main4 i{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+#lefttxt h1{
+    font-size: 1.5rem;
+    
+}
+#middletxt h1{
+    font-size: 1.5rem;
+}
+#righttxt h1{
+    font-size: 1.5rem;
+}
+#lefttxt p{
+    font-size: 0.8rem;
+    line-height: 7;
+    
+}
+#middletxt p{
+    font-size: 0.8rem;
+    line-height: 7;
+}
+#righttxt p{
+    font-size: 0.8rem;
+    line-height: 10;
+}
+
+
+
+
+.main5{
+width: 100%;
+height: 70vh;
+background-color: #5E584A;
+}
+.main5 img{
+    float: left;
+    width: 35%;
+    height: 50vh;
+    margin: 5rem 0 0 10rem;
+    position: absolute;
+}
+.main5 p{
+    color: white;
+    font-size: 1.2rem;
+}
+.main5 i{
+    color: white;
+}
+.texts{
+    float: right;
+    width: 35%;
+    height: 20vh;
+    
+    margin: 10rem 10rem 0 0;
+    display: inline-block;
+    
+}
+#t1, #t2{
+    width: 25%;
+    height: 6vh;
+    
+    display: inline-block;
+    float: left;
+}
+#t1{
+    border-right: 1px solid white;
+}
+#t1 h4{
+    font-size: 0.6rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    color: white;
+}
+#t1 p{
+    font-size: 0.5rem;
+    margin-left: 0rem;
+    color: white;
+}
+#t2 i{
+    font-size: 0.8rem;
+    margin-top: 1.2rem;
+    margin-left: 2rem;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 60vh;
+    background-color: #5E584A;
+}
+footer .mainn{
+    width: 80%;
+    height: 35vh;
+    background-color: blanchedalmond;
+    margin: auto;
+    padding: 2rem;
+}
+.form{
+    float: left;
+    width: 30%;
+    height: 20vh;
+    background-color: transparent;
+    padding: 2rem 3rem;
+}
+.form img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+    
+}
+.form h4{
+    font-size: 0.6rem;
+    font-weight: 50;
+}
+.form input{
+    border-radius: 5px;
+    font-size: 0.6rem;
+    padding: 0.5rem 0.7rem;
+    border: none;
+    border-bottom :0.4px#5E584A solid  ;
+    width: 12rem;
+    background-color: transparent;
+    
+}
+
+:placeholder-{
+    
+}
+#Subscribe{
+    border-radius: 20px;
+    font-size: 0.6rem;
+    padding: 0.5rem 0.7rem;
+    border:0.4px#5E584A solid  ;
+   font-weight: 600;
+    background-color: transparent;
+}
+.form p{
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+    text-align: left;
+}
+
+.quickLinks{
+    float: left ;
+    width: 10%;
+    height: 30vh;
+    background-color: transparent;
+    margin-left: 4rem;
+}
+.quickLinks h1{
+    font-size: 1rem;
+    padding: 0.4rem;
+}
+.quickLinks a{
+    padding: 0.5rem;
+    display: block;
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: black;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+
+.connectWithUs{
+    float: left ;
+    width: 13%;
+    height: 30vh;
+    background-color: transparent;
+    margin-left: 7rem;
+}
+.connectWithUs h1{
+    font-size: 1rem;
+    padding: 0.4rem;
+}
+.connectWithUs a{
+    padding: 0.5rem;
+    display: block;
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: black;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+
+.stayUpdated{
+    float: left ;
+width: 10%;
+height: 30vh;
+background-color: transparent;
+margin-left: 6rem;
+}
+.stayUpdated h1{
+    font-size: 1rem;
+    padding: 0.4rem;
+}
+.stayUpdated a{
+    padding: 0.5rem;
+    display: block;
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: black;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin
+    
+}
+
+footer p{
+    font-size: 0.6rem;
+    text-align: center;
+}
