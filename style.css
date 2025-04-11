@@ -8,6 +8,9 @@ nav{
     background-color: transparent;
     position:sticky;
 }
+nav i{
+    opacity: 0;
+}
 nav img{
     width: 2rem;
     height: 2rem;
@@ -544,6 +547,9 @@ footer p{
         height: 3rem;
         
         position:sticky;
+    }
+    nav i{
+        opacity: 1;
     }
     nav img{
     
