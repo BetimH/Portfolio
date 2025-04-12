@@ -119,7 +119,7 @@ transition: 0.5s;
 
 .main2{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-color: #090B0C;
 }
 .text1{
@@ -206,7 +206,7 @@ margin-left: 7rem;
 
 .main3{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background-color: #BBE2ED;
 }
 .main3 h4{
