@@ -598,7 +598,7 @@ footer p{
     .text{
         width: 70%;
         height: 40vh;
-        padding: 2rem 0 0 2rem;
+        padding: 2rem 0 0 1rem;
         margin: 7rem auto;
         display: block;
     }
@@ -619,7 +619,7 @@ footer p{
         border-radius: 50px;
         border: none;
         padding: 0.7rem 1.5rem;
-        margin: 7rem 0rem;
+        margin: 7rem 0.5rem;
     }
     #LearnMore:hover{
         background-color: white;
