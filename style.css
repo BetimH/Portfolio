@@ -703,6 +703,7 @@ footer p{
         background-size: cover;
         background-repeat: no-repeat;
         padding: 0%;
+        align-items: center;
      
     }
     #menu2 img{
@@ -1367,7 +1368,8 @@ footer p{
         background-repeat: no-repeat;
         padding: 0%;
         float: right;
-        margin: 0.4rem 0.15rem;
+       
+          align-items: center;
     }
     #menu2 img{
         width: 1rem;
