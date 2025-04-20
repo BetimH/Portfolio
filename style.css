@@ -1356,29 +1356,14 @@ footer p{
         height: 2rem;
         margin-right: 1.5rem;
         margin-top: 0.5rem;
-        background-image: url(barsss.png);
+       
     }
-    #menu img, #menu2 img{
-        border-radius: 50px;
-        width: 1.5rem;
-        height: 1rem;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 0%;
-        float: right;
-        margin: 0.4rem 0.15rem;
-    }
-    #menu2 img{
-        width: 1rem;
-        margin: 0.4rem 0.4rem;
-    }
+
     #menu{
         background-image: url(barsss.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-      
     }
 
    
