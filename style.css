@@ -76,8 +76,18 @@ overflow: hidden;
     padding: 0%;
     align-items: center;
 }
+#menu{
+    background-image: url(barsss.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 #menu2{
     display: none;
+    background-image: url(x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #sidebar{
     float: right;
